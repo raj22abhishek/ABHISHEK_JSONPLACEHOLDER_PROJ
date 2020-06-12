@@ -1,0 +1,17 @@
+
+<div class="vertical-center col-md-6 m-auto p-4"> 
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">SEARCH</span>
+            
+        </div>
+        <input type="text" id="user" (change)="checkUser()" [(ngModel)]="inputUserText"  class="form-control rounded-right" required>
+        <span class="mx-4"><button class="btn btn-primary"  (click)="checkUser()">Search</button></span>
+        <div class="invalid-feedback">
+            Please choose a username.
+        </div>
+    </div>
+</div>
+    
+
+

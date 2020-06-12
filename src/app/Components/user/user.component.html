@@ -1,0 +1,16 @@
+
+  <div class="container-fluid">
+      <div class="row"><h3>User Name :--  {{userName}}</h3></div>
+  </div>
+  
+  
+  <div class="container-fluid mt-4 card-columns">
+    <div class="card bg-light" *ngFor="let post of posts">
+        <div class="card-body text-success">
+          <h5 class="card-title text-danger">{{ post.title}}</h5>
+          <p class="card-text">{{ post.body }}</p>
+        </div>
+      </div>
+  </div>
+
+ 

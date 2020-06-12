@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Abhishek"
+    }
+  },
+  "defaultProject": "Abhishek",
+  "cli": {
+    "analytics": "8ff0b128-e68f-4dd9-b8cd-bf2d15eaf6ab"
+  }
 }
